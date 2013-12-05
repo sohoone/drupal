@@ -1,0 +1,20 @@
+name = Recently read
+description = Tracks the history of recently read content by each user.
+core = 7.x
+package = Other
+configure = admin/config/system/recently-read
+dependencies[] = entity
+dependencies[] = session_api
+
+files[] = recently_read.install
+files[] = recently_read.module
+files[] = includes/recently_read.views.inc
+files[] = includes/recently_read_handler_filter_current.inc
+files[] = includes/recently_read_handler_filter_entity_type.inc
+
+; Information added by drupal.org packaging script on 2013-08-18
+version = "7.x-3.0-alpha2"
+core = "7.x"
+project = "recently_read"
+datestamp = "1376841402"
+
