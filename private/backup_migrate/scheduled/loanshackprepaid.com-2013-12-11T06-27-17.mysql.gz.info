@@ -1,0 +1,8 @@
+filename = "loanshackprepaid.com-2013-12-11T06-27-17"
+description = ""
+datestamp = "1386714438"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.24"
+sites[0][name] = "loanshackprepaid.com"
+sites[0][url] = "http://loanshackprepaid.com/"
